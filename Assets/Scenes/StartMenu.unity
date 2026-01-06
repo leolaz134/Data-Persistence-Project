@@ -1357,7 +1357,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 84330264}
         m_TargetAssemblyTypeName: MenuUIHandler, Assembly-CSharp
-        m_MethodName: SaveName
+        m_MethodName: SaveNameTyped
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

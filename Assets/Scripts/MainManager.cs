@@ -14,13 +14,14 @@ public class MainManager : MonoBehaviour
     public Text ScoreText;
     public GameObject GameOverText;
     public Text DataText;
-    public static MainManager Instance;
+    
+    //makes it so you can only get an instance of MainManager and not set it
+    public static MainManager Instance {get; private set;}
 
     private bool m_Started = false;
     private int m_Points;
 
     private bool m_GameOver = false;
-
 
     // Start is called before the first frame update
     void Start()
